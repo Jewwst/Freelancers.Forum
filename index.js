@@ -48,7 +48,7 @@ const interval = setInterval(()=>  {
   };
   freelancers.push(randomFreelancer);
   render();
-  if(freelancers.length === 15){
+  if(freelancers.length === 10){
     clearInterval(interval);
   }
 }, 1000);
