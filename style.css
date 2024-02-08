@@ -1,5 +1,5 @@
 * {
-    font-family: "Courier New", Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
   }
   body {
     background-color: crimson;
@@ -9,7 +9,7 @@
     padding: auto;
     margin: auto;
     border: 5px soild black;
-    background-color: green;
+    background-color: whitesmoke;
   }
   h1,
   h2 {
@@ -20,7 +20,7 @@
     font-size: 1em;
   }
 
-  .freelancer {
+  .freelancerList {
     width: 75%;
     height: 55px;
     margin: auto;
