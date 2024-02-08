@@ -1,16 +1,21 @@
-const users = [
-    { name: "Bingus Bongus", age: 19, occupation: "bouncy boi" },
-    { name: "Screeb", age: 26, occupation: "exploder" },
-    { name: "Ghost Face", age: 33, occupation: "hitman" },
-    { name: "The Winged Dragon Of Ra", age: 2052, occupation: "literal god" },
-    { name: "Hora Loux", age: 66, occupation: "fighter" },
-];
+const freelancer = [
+    { name: "Alice", price: 30, occupation: "writer" },
+    { name: "Bob", price: 50, occupation: "teacher" },
+    { name: "Carol", price: 70, occupation: "programmer" },
+]
 
 function getFreelancer(){
     const randNames = Math.floor(Math.random()*names.length)
   const randOccupations = Math.floor(Math.random()*occupations.length)
   const randPrice = Math.floor(Math.random()*startingPrice.length)
+  const freelancer ={
+    name: names[randNames],
+    occupation : occupations[randOccupations],
+    price:startingPrice[randPrice]
+  }
+  return freelancer;
 }
+
 
 function renderContents(){
      const html = freelancers.map((freelancer)=>{
